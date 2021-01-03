@@ -6,5 +6,6 @@ spec:
   containers:
   - name: amit
     image: nginx
-  port:
-     target-port: 80
+  nodeSelector:
+    color: blue
+
